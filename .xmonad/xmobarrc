@@ -1,0 +1,17 @@
+Config { font = "xft:cure-10"
+       , bgColor = "#181818"
+       , fgColor = "#888888"
+       , position = Top
+       , lowerOnStart = False
+       , commands = [ Run StdinReader
+       , Run Com "mpc" ["status", "--format", "\"%artist% - %title%\""] "music" 20
+       , Run Cpu ["-L","7","-H","50","--low","#888888","--normal","#99bb10","--high","#d12828"] 10
+       , Run Network "wlan0" ["-t","Net: <rx><fc=#9c8e2d>  >>  </fc><tx>","-L","5","-H","32","--normal","#9c8e2d","--high","#98565e","--low","#888888"] 10
+       , Run Date "%a %b %_d<fc=#9c8e2d> %H:%M</fc>" "date" 10
+       ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "%StdinReader%} {%music%<fc=#bd1550>  <fc=#51588E>>></fc>  </fc>%cpu%  <fc=#51588E>>></fc>  %wlan0%  <fc=#51588E>>></fc>  %date%"
+       }
+
+
