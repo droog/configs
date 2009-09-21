@@ -16,6 +16,7 @@ URxvt*urgentOnBell:     true
 URxvt*cursorColor:      #98565e
 URxvt*internalBorder:   2
 URxvt*externalBorder:   0
+
 !droog
 URxvt*background:   #171717
 URxvt*foreground:   #e1e2db
