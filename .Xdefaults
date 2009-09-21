@@ -1,0 +1,46 @@
+Xft.dpi:        100
+Xft.antialias:  true
+Xcursor.theme:  aero-drop
+
+URxvt*font:             -*-montecarlo-medium-*-*-*-11-*-*-*-*-*-*-*
+URxvt*boldFont:         -*-montecarlo-medium-*-*-*-11-*-*-*-*-*-*-*
+URxvt*italicFont:       -*-montecarlo-medium-*-*-*-11-*-*-*-*-*-*-*
+URxvt*termName:         rxvt-256color
+URxvt*scrollBar:        false
+URxvt*perl-ext:         default,matcher
+URxvt*urlLauncher:      urxvt-uzbl.sh
+URxvt*matcher.button:   1
+URxvt.colorUL:          #933046
+URxvt*visualBell:       false
+URxvt*urgentOnBell:     true
+URxvt*cursorColor:      #98565e
+URxvt*internalBorder:   2
+URxvt*externalBorder:   0
+!droog
+URxvt*background:   #171717
+URxvt*foreground:   #e1e2db
+!black
+URxvt*color0:   #232526
+URxvt*color8:   #1e1e1e
+!red
+URxvt*color1:   #933046
+URxvt*color9:   #4b2935
+!green
+URxvt*color2:   #74835E
+URxvt*color10:  #394332
+!yellow
+URxvt*color3:   #C9B464
+URxvt*color11:  #D6993C
+!blue
+URxvt*color4:   #3b5170
+URxvt*color12:  #36416b
+!magenta
+URxvt*color5:   #6B709C
+URxvt*color13:  #474F73
+!cyan
+URxvt*color6:   #4A6A76
+URxvt*color14:  #40505D
+!white
+URxvt*color7:   #E1E2DB
+URxvt*color15:  #888888
+
